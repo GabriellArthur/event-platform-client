@@ -18,11 +18,10 @@ export function Subscribe(){
 
   const [createSubscriber, { data, loading }] = useMutation(CREATE_SUBSCRIBE_MUTATION);
 
-  function handleSubscribe(event: FormEvent){
+  async function handleSubscribe(event: FormEvent){
     event.preventDefault();
-    createSubscriber({ variables: { name, email } }).then(() => {
-      navigate('/event');
-    });
+    await createSubscriber({ variables: { name, email } });
+    navigate('/event');
   }
 
   return(
