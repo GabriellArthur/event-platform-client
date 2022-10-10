@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-zinc-900 text-zinc-100;
+}
+
+/* .title { Exemplo no CSS
+  @apply text-2xl font-bold text-gray-800;
+} */
