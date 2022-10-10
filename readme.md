@@ -22,3 +22,7 @@ Mutation = `criar, alterar, ou deletar`
 Overfitting - Retorna muitos dados 
 
 Underfitting - Retorna poucos dados e tem que ter mais de uma chamada 
+
+## FIGMA
+
+https://www.figma.com/file/bOuGmycl3DpAFPLwIWiodl/Plataforma-de-Evento---Ignite-Lab?node-id=8%3A399
