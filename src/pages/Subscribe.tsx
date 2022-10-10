@@ -20,7 +20,7 @@ export function Subscribe(){
 
   async function handleSubscribe(event: FormEvent){
     event.preventDefault();
-    await createSubscriber({ variables: { name, email } });
+    // await createSubscriber({ variables: { name, email } });
     navigate('/event');
   }
 
